@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>dotnet-WorkerServiceDemo-23081103-9000-4030-8AFF-1FCD74734B79</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fleck" Version="1.2.0" />
+    <PackageReference Include="IdentityServer4" Version="4.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.14" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Systemd" Version="3.1.14" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="3.1.14" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="SmartFormat.NET" Version="2.7.0" />
+    <PackageReference Include="System.Management" Version="5.0.0" />
+    <PackageReference Include="Volo.Abp.Core" Version="4.3.2" />
+  </ItemGroup>
+</Project>
